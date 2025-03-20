@@ -2,6 +2,9 @@ import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.datasets import make_classification
 import pytest
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.Lab2_6_CV import cross_validation
 
 
